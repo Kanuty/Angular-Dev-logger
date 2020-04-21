@@ -1,1 +1,17 @@
-<p>log-form works!</p>
+<div class="card card-body mb-3">
+  <form>
+    <div class="form-group">
+      <input
+        type="text"
+        name="text"
+        [(ngModel)]="text"
+        class="form-control"
+        placeholder="Add a log..."
+      />
+    </div>
+    <Input type="submit" value="Add Log" class="btn btn-light" />
+    <button type="button" class="btn btn-warning">
+      Clear
+    </button>
+  </form>
+</div>
